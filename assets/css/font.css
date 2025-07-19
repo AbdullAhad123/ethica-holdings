@@ -1,0 +1,56 @@
+* {
+    font-family: 'StyreneB', sans-serif;
+}
+
+.fs_heading {
+    font-family: 'DalaMoa', sans-serif !important;
+}
+
+@font-face {
+    font-family: 'StyreneB';
+    src: url('../fonts/Styrene/StyreneB-Black.otf') format('opentype');
+    font-weight: 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'StyreneB';
+    src: url('../fonts/Styrene/StyreneB-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'StyreneB';
+    src: url('../fonts/Styrene/StyreneB-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'StyreneB';
+    src: url('../fonts/Styrene/StyreneB-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'StyreneB';
+    src: url('../fonts/Styrene/StyreneB-Light.otf') format('opentype');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'StyreneB';
+    src: url('../fonts/Styrene/StyreneB-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DalaMoa';
+    src: url('../fonts/dala-moa-medium.otf') format('opentype');
+    font-weight: 500;
+    font-display: swap;
+}
