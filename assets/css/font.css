@@ -2,7 +2,8 @@
     font-family: 'StyreneB', sans-serif;
 }
 
-.fs_heading {
+.fs_heading, 
+.fs_heading * {
     font-family: 'DalaMoa', sans-serif !important;
 }
 
