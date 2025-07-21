@@ -9,6 +9,7 @@
     --light: #fffffff6;
     --white: #ffffff;
     --light_em: #F2F1ED;
+    --light_emphasis: #f2f1edcb;
     --dark_em: #26352F;
     --dark: #000000f6;
     --black: #000000;
@@ -46,6 +47,10 @@ html {
 
 .text_light_em {
     color: var(--light_em) !important;
+}
+
+.text_light_emphasis {
+    color: var(--light_emphasis) !important;
 }
 
 .text_dark {
@@ -97,7 +102,7 @@ html {
 
 .btn_primary:hover {
     background: var(--dark_em);
-    border-color: var(--dark_em);
+    border-color: var(--dark_em) !important;
     color: var(--light_em);
     fill: var(--light_em);
 }

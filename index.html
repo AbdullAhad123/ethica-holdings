@@ -292,7 +292,7 @@
         </style>
 
         <section id="roadmap" class="bg_dark py-5">
-            <div class="container wrapper my-4">
+            <div class="container wrapper my-5">
                 <div class="text_light_em d-flex align-items-center mb-2 gap-3">
                     <span class="fs-4 fw-bold">•</span>
                     <span class="fs_5 text-uppercase">Roadmap</span>
@@ -312,7 +312,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper roadMapSwiper my-4">
+                <div class="swiper roadMapSwiper my-4 mb-5">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="row align-items-center">
@@ -455,6 +455,225 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+
+        <style>
+            .industriesCard {
+                height: 380px;
+                border: 1px solid #00000044;
+                position: relative;
+                overflow: hidden;
+                transition: 0.25s;
+            }
+
+            .industriesCardImg {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                opacity: 0;
+                filter: brightness(0.6);
+                transition: 0.25s;
+            }
+
+            .industriesCard:hover * {
+                color: var(--light_em) !important;
+                fill: var(--light_em) !important;
+            }
+            .industriesCard:hover .industriesCardImg {
+                opacity: 1;
+            }
+            
+        </style>
+        <section id="company" class="my-5 py-4">
+            <div class="container wrapper">
+                <div class="row">
+                    <div class="col-lg-4 col-12 my-3 py-3">
+                        <div class="text_dark_em d-flex align-items-center mb-3 gap-3">
+                            <span class="fs-4 fw-bold">•</span>
+                            <span class="fs_5 text-uppercase">Industries</span>
+                        </div>
+                        <h2 class="text_dark_em fs_heading m-0 display-4">Top industries we invest in</h2> 
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-3">
+                        <div class="industriesCard rounded-4 p-3 py-4">
+                            <img src="assets/img/slide_5.png" class="industriesCardImg" alt="">
+                            <div class="position-relative h-100 d-flex justify-content-between flex-column">
+                                <div>
+                                    <div class="mb-1 mt-2 text-uppercase text_dark_em fs_6">We invest in</div>
+                                    <h3 class="text_dark_em fs-4 fw-medium mb-5">Venture Capital Companies</h3>
+                                </div>
+                                <div class="text-end m-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="32" width="32"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z" /></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-3">
+                        <div class="industriesCard rounded-4 p-3 py-4">
+                            <img src="assets/img/slide_5.png" class="industriesCardImg" alt="">
+                            <div class="position-relative h-100 d-flex justify-content-between flex-column">
+                                <div>
+                                    <div class="mb-1 mt-2 text-uppercase text_dark_em fs_6">We invest in</div>
+                                    <h3 class="text_dark_em fs-4 fw-medium mb-5">Family Offices</h3>
+                                </div>
+                                <div class="text-end m-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="32" width="32"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z" /></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-3">
+                        <div class="industriesCard rounded-4 p-3 py-4">
+                            <img src="assets/img/slide_5.png" class="industriesCardImg" alt="">
+                            <div class="position-relative h-100 d-flex justify-content-between flex-column">
+                                <div>
+                                    <div class="mb-1 mt-2 text-uppercase text_dark_em fs_6">We invest in</div>
+                                    <h3 class="text_dark_em fs-4 fw-medium mb-5">Wealth Management Firms</h3>
+                                </div>
+                                <div class="text-end m-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="32" width="32"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z" /></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-3">
+                        <div class="industriesCard rounded-4 p-3 py-4">
+                            <img src="assets/img/slide_5.png" class="industriesCardImg" alt="">
+                            <div class="position-relative h-100 d-flex justify-content-between flex-column">
+                                <div>
+                                    <div class="mb-1 mt-2 text-uppercase text_dark_em fs_6">We invest in</div>
+                                    <h3 class="text_dark_em fs-4 fw-medium mb-5">DeFi & Web3 Startups</h3>
+                                </div>
+                                <div class="text-end m-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="32" width="32"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z" /></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 my-3">
+                        <div class="industriesCard rounded-4 p-3 py-4">
+                            <img src="assets/img/slide_5.png" class="industriesCardImg" alt="">
+                            <div class="position-relative h-100 d-flex justify-content-between flex-column">
+                                <div>
+                                    <div class="mb-1 mt-2 text-uppercase text_dark_em fs_6">We invest in</div>
+                                    <h3 class="text_dark_em fs-4 fw-medium mb-5">Regulated Crypto Custody Platforms</h3>
+                                </div>
+                                <div class="text-end m-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="32" width="32"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z" /></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <style>
+            .inputField {
+                padding: 1.25rem 0.5rem;
+                background: transparent !important;
+                outline: none !important;
+                box-shadow: none !important;
+                border: none !important;
+                border-radius: 0 !important;
+                border-bottom: 1px solid var(--dark_em) !important;
+            }
+
+            .inputField:focus {
+                border-bottom: 1px solid var(--dark_em) !important;
+            }
+            .inputField::placeholder {
+                color: #26352f9c;
+            }
+
+            .social_links {
+                color: #f2f1edbe;
+                text-decoration: none;
+                transition: 0.25s;
+            }
+
+            .social_links:hover {
+                color: #F2F1ED;
+            }
+            
+        </style>
+
+        <section id="contact" class="my-5 py-3">
+            <div class="container wrapper">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-12 my-3">
+                        <div class="text_dark_em d-flex align-items-center mb-2 gap-3">
+                            <span class="fs-4 fw-bold">•</span>
+                            <span class="fs_5 text-uppercase">Contact</span>
+                        </div>
+                        <h2 class="text_dark_em fs_heading m-0 display-4">Ready to work together? Get in touch with us</h2> 
+                        <div class="my-3">
+                            <button class="btn_primary rounded-pill fs_6">+41 (291) 123 1234</button>
+                            <button class="btn_outline_primary rounded-pill fs_6">Email us</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-12 my-3 px-lg-5">
+                        <form class="my-4">
+                            <div class="mb-4">
+                                <input type="text" name="name" id="name" class="form-control shadow-none inputField" placeholder="Your Name">
+                            </div>
+                            <div class="mb-4">
+                                <input type="text" name="name" id="name" class="form-control shadow-none inputField" placeholder="Your Work Email">
+                            </div>
+                            <div class="mb-4">
+                                <input type="text" name="name" id="name" class="form-control shadow-none inputField" placeholder="Your Company Name">
+                            </div>
+                            <div class="mb-4">
+                                <textarea name="name" id="name" class="form-control shadow-none inputField" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="mb-4 pt-2">
+                                <button class="btn_dark w-100 rounded py-3">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer" class="pt-5 pb-3 bg_dark">
+            <div class="container wrapper">
+                <div class="row my-4 justify-content-between">
+                    <div class="col-lg-5 col-md-6 col-sm-6 col-12 mb-3">
+                        <a href="#" class="d-inline-flex mb-4">
+                            <img src="assets/img/logo_invert.png" width="140" alt="">
+                        </a>
+                        <h2 class="text_light_em fs_heading display-6">Shape your <span class="text_dark_primary">business future</span> with us today!</h2> 
+                        <p class="text_light_emphasis fw-light mb-4">Let's get your business started with us and shape your future with our strategies and roadmaps. And see the difference in just one year!</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-3">
+                        <h4 class="text_light_em fw-medium fs-5 mb-4">Main links</h4>
+                        <ul class="list-unstyled my-2">
+                            <li class="mb-3"><a href="#" class="d-inline-flex align-items-center social_links">Home</a></li>
+                            <li class="mb-3"><a href="#" class="d-inline-flex align-items-center social_links">About us</a></li>
+                            <li class="mb-3"><a href="#" class="d-inline-flex align-items-center social_links">Investment Criteria</a></li>
+                            <li class="mb-3"><a href="#" class="d-inline-flex align-items-center social_links">Investors Relations</a></li>
+                            <li class="mb-3"><a href="#" class="d-inline-flex align-items-center social_links">Road Map</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-3">
+                        <h4 class="text_light_em fw-medium fs-5 mb-4">Quick links</h4>
+                        <ul class="list-unstyled my-2">
+                            <li class="mb-3"><a href="#" class="d-inline-flex align-items-center social_links">Investor Login</a></li>
+                            <li class="mb-3"><a href="#" class="d-inline-flex align-items-center social_links">Download Pitch Deck</a></li>
+                            <li class="mb-3"><a href="#" class="d-inline-flex align-items-center social_links">Schedule a Meeting</a></li>
+                            <li class="mb-3"><a href="#" class="d-inline-flex align-items-center social_links">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="border-light">
+                <p class="text_light_emphasis fw-light fs_6 text-center my-1">Copyright &copy; 2025. All rights reserved</p>
+                <p class="fw-light fs_6 text-center my-1"><a href="https://heckto.com" target="_blank" class="text-decoration-none text_light_emphasis">Powered by Heckto</a></p>
             </div>
         </section>
 
