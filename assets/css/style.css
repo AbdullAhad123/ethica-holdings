@@ -1,0 +1,107 @@
+/* header  */
+.headerImgCont {
+    height: 620px;
+    position: relative;
+    overflow: hidden;
+}
+
+.headerImgCont img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .headerImgCont {
+        height: 400px;
+    }
+}
+
+header {
+    position: relative;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    width: auto;
+    background-color: var(--dark);
+    z-index: -1;
+}
+
+/* about  */
+.aboutCard {
+    height: 100%;
+    border: 1px solid #f2f1ed44;
+}
+
+.underlinedEffect {
+    position: relative;
+    display: inline-block;
+}
+
+.underlinedEffect::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    width: 100%;
+    background-color: var(--light_em);
+}
+
+/* investment  */
+.investmentCards {
+    height: 100%;
+    width: auto;
+    cursor: pointer;
+    border: 1px solid #26352f70;
+    transition: 0.25s;
+}
+
+.investmentCards:hover {
+    border-color: var(--dark_em);
+}
+
+.investmentCards:hover.investmentCards .cardIcon {
+    fill: var(--primary) !important;
+}
+
+.investmentCards .cardIcon {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--dark_em);
+    fill: var(--light_em);
+    border-radius: 50%;
+    transition: 0.25s;
+}
+
+/* bot  */
+.botImgCont {
+    height: 500px;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.botImgCont img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
