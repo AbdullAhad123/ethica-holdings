@@ -17,6 +17,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .material-icons {
@@ -38,6 +39,24 @@ html {
 
 .fs_7 {
     font-size: 0.875rem;
+}
+
+.inputField {
+    padding: 1.25rem 0.5rem;
+    background: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid var(--dark_em) !important;
+}
+
+.inputField:focus {
+    border-bottom: 1px solid var(--dark_em) !important;
+}
+
+.inputField::placeholder {
+    color: #26352f9c;
 }
 
 /* text  */
@@ -130,6 +149,7 @@ html {
     color: var(--light_em);
     fill: var(--light_em);
 }
+
 .btn_outline_primary {
     background: transparent;
     color: var(--dark_primary);
@@ -184,7 +204,7 @@ html {
 #smallSidebar {
     background: var(--light_em);
     width: 500px;
-    overflow-y: auto;   
+    overflow-y: auto;
 }
 
 .smallSidebarLink {
@@ -224,4 +244,15 @@ html {
     .lg_hidden {
         display: none !important;
     }
+}
+
+/* footer  */
+.social_links {
+    color: #f2f1edbe;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.social_links:hover {
+    color: #F2F1ED;
 }

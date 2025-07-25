@@ -105,3 +105,82 @@ header::after {
     width: 100%;
     object-fit: cover;
 }
+
+/* idustry  */
+.industriesCard {
+    height: 380px;
+    border: 1px solid #00000044;
+    position: relative;
+    overflow: hidden;
+    transition: 0.25s;
+}
+
+.industriesCardImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0;
+    filter: brightness(0.6);
+    transition: 0.25s;
+}
+
+.industriesCard:hover * {
+    color: var(--light_em) !important;
+    fill: var(--light_em) !important;
+}
+
+.industriesCard:hover .industriesCardImg {
+    opacity: 1;
+}
+
+/* roadmap  */
+.swiper_controls_btns {
+    height: 40px;
+    width: 40px;
+    background: var(--light_em);
+    border: 1px solid var(--light_em);
+    border-radius: 50%;
+    transition: 0.25s;
+}
+
+.swiper_controls_btns:disabled {
+    opacity: 0.8;
+    cursor: default;
+}
+
+.swiper_controls_btns:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+.swiper_img_cont {
+    min-height: 450px;
+    max-height: 100%;
+    width: auto;
+}
+
+@media (max-width: 992px) {
+    .swiper_img_cont {
+        min-height: 300px !important;
+    }
+}
+
+.swiper_img_cont img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.heading_line {
+    height: 4px;
+    width: 60px;
+    background: var(--primary);
+    border-radius: 10px;
+}
