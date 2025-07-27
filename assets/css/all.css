@@ -34,7 +34,7 @@ html {
 }
 
 .fs_6 {
-    font-size: 0.925rem;
+    font-size: 0.935rem;
 }
 
 .fs_7 {
@@ -42,7 +42,7 @@ html {
 }
 
 .inputField {
-    padding: 1.25rem 0.5rem;
+    padding: 1.25rem 0.5rem !important;
     background: transparent !important;
     outline: none !important;
     box-shadow: none !important;
@@ -180,7 +180,7 @@ html {
     fill: var(--dark_em);
     border: none;
     outline: none;
-    padding: 0.85rem 1.25rem;
+    padding: 0.85rem 0.95rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
