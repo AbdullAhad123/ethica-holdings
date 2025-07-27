@@ -15,6 +15,11 @@
     --black: #000000;
 }
 
+body {
+    cursor: url('../img/cursor.png') 0 0, auto !important;
+}
+
+
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
