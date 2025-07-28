@@ -15,6 +15,11 @@
     --black: #000000;
 }
 
+::selection {
+    background: #f8f6f3 !important;
+    color: var(--dark_em) !important;
+}
+
 body {
     cursor: url('../img/cursor.png') 0 0, auto !important;
 }
