@@ -42,6 +42,16 @@ html {
     font-size: 0.935rem;
 }
 
+.fs_6_res {
+    font-size: 0.975rem;
+}
+
+@media (max-width: 768px) {
+    .fs_6_res {
+        font-size: 0.925rem !important;
+    }
+}
+
 .fs_7 {
     font-size: 0.875rem;
 }
@@ -252,12 +262,15 @@ html {
 }
 
 /* footer  */
-.social_links {
+#footer {
+    overflow: hidden;
+}
+.footer_links {
     color: #f2f1edbe;
     text-decoration: none;
     transition: 0.25s;
 }
 
-.social_links:hover {
+.footer_links:hover {
     color: #F2F1ED;
 }
